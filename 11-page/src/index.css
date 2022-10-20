@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Barlow+Semi+Condensed:wght@500;600&family=League+Spartan:wght@200;300;400&family=Martel+Sans:wght@300;400;600;700;800;900&family=Nunito:wght@200;300;400;600&family=Open+Sans&family=Outfit:wght@300;500;600&family=Poppins:wght@100;200;400;500;600;700;900&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  background: black;
+  margin: 2rem;
+}
+
+header{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading{
+  font-size: 2rem;
+}
+.heading span{
+  font-weight: bold;
+}
+.textarea{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.search{
+  color: white;
+  background: black;
+  padding: 0.5rem;
+  border-radius: 0.9rem;
+  border: 0.1px solid rgb(143, 139, 139);
+  width:20rem;
+}
+.marriage{
+  background: gray;
+  padding: 0.5rem;
+  width: 10rem;
+  border-radius: 0.9rem;
+  color: rgb(202, 195, 195);
+}

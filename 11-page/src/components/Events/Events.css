@@ -1,0 +1,72 @@
+.contain{
+    background-color: rgb(37, 37, 37);
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    width: 50%;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.Gallery{
+    background: linear-gradient(to right, rgb(230, 66, 66), rgb(243, 16, 16));
+    width:7rem;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    color: white;
+    border: none;
+}
+
+.style{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 100px;
+    background-color: black;
+    border: 0.1px solid rgb(143, 139, 139);
+    border-radius: 0.5rem;
+    color: wheat;
+}
+label{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: lighter;
+
+}
+.Gallery span{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.flexboxes{
+    
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+input{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 0.1px solid rgb(143, 139, 139);
+    background-color: rgb(37, 37, 37);
+    color: white;
+    width: 16rem;
+}
+.login{
+    margin-top: 2rem;
+}
+.log-in{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.num, .pass{
+    width: 95%;
+}
